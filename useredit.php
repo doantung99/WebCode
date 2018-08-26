@@ -95,7 +95,7 @@ if(isset($_POST['reset']))
 			
 				$file_tmp =$_FILES['upload']['tmp_name'];
 	
-				$path ="/upload/".$file_name;
+				$path ="upload/".$file_name;
 				
 				move_uploaded_file($file_tmp,$path);
 				
